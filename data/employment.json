@@ -1,0 +1,98 @@
+[
+  {
+    "employment_id": "EMP202600199",
+    "alumni_id": "ALM202600191",
+    "company_name": "Google",
+    "designation": "Software Engineer",
+    "salary": 1800000,
+    "joining_date": "2018-07-15"
+  },
+  {
+    "employment_id": "EMP202600279",
+    "alumni_id": "ALM202600224",
+    "company_name": "Samsung R&D",
+    "designation": "Hardware Engineer",
+    "salary": 1200000,
+    "joining_date": "2019-08-01"
+  },
+  {
+    "employment_id": "EMP202600363",
+    "alumni_id": "ALM202600313",
+    "company_name": "HDFC Bank",
+    "designation": "Financial Analyst",
+    "salary": 900000,
+    "joining_date": "2020-06-20"
+  },
+  {
+    "employment_id": "EMP202600438",
+    "alumni_id": "ALM202600445",
+    "company_name": "TCS",
+    "designation": "Senior Developer",
+    "salary": 1100000,
+    "joining_date": "2018-09-10"
+  },
+  {
+    "employment_id": "EMP202600567",
+    "alumni_id": "ALM202600541",
+    "company_name": "Infosys",
+    "designation": "ML Engineer",
+    "salary": 1500000,
+    "joining_date": "2021-07-05"
+  },
+  {
+    "employment_id": "EMP202600685",
+    "alumni_id": "ALM202600638",
+    "company_name": "Tata Motors",
+    "designation": "Design Engineer",
+    "salary": 850000,
+    "joining_date": "2017-08-22"
+  },
+  {
+    "employment_id": "EMP202600745",
+    "alumni_id": "ALM202600727",
+    "company_name": "Wipro",
+    "designation": "QA Engineer",
+    "salary": 700000,
+    "joining_date": "2019-09-15"
+  },
+  {
+    "employment_id": "EMP202600810",
+    "alumni_id": "ALM202600823",
+    "company_name": "Deloitte",
+    "designation": "Business Consultant",
+    "salary": 1050000,
+    "joining_date": "2020-10-01"
+  },
+  {
+    "employment_id": "EMP202600930",
+    "alumni_id": "ALM202600996",
+    "company_name": "Amazon",
+    "designation": "SDE II",
+    "salary": 2200000,
+    "joining_date": "2016-07-18"
+  },
+  {
+    "employment_id": "EMP202601099",
+    "alumni_id": "ALM202601079",
+    "company_name": "Accenture",
+    "designation": "Associate Consultant",
+    "salary": 750000,
+    "joining_date": "2022-08-01"
+  },
+  {
+    "employment_id": "EMP202601164",
+    "alumni_id": "ALM202601121",
+    "company_name": "HCL Technologies",
+    "designation": "HR Manager",
+    "salary": 950000,
+    "joining_date": "2017-09-12"
+  },
+  {
+    "employment_id": "EMP202601253",
+    "alumni_id": "ALM202601285",
+    "company_name": "Microsoft",
+    "designation": "Cloud Engineer",
+    "salary": 1900000,
+    "joining_date": "2021-07-25"
+  }
+]

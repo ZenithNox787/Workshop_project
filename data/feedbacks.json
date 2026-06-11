@@ -1,0 +1,38 @@
+[
+  {
+    "feedback_id": "FBK202600147",
+    "alumni_id": "ALM202600191",
+    "feedback_text": "The alumni portal is very helpful. Keep up the great work!",
+    "rating": 5
+  },
+  {
+    "feedback_id": "FBK202600290",
+    "alumni_id": "ALM202600313",
+    "feedback_text": "Events could be better publicised in advance.",
+    "rating": 3
+  },
+  {
+    "feedback_id": "FBK202600389",
+    "alumni_id": "ALM202600996",
+    "feedback_text": "Excellent networking opportunities. Met many old friends.",
+    "rating": 5
+  },
+  {
+    "feedback_id": "FBK202600456",
+    "alumni_id": "ALM202600541",
+    "feedback_text": "Would love more sessions focused on emerging technologies.",
+    "rating": 4
+  },
+  {
+    "feedback_id": "FBK202600583",
+    "alumni_id": "ALM202600727",
+    "feedback_text": "Good initiative but the venue was too small for the crowd.",
+    "rating": 3
+  },
+  {
+    "feedback_id": "FBK202600634",
+    "alumni_id": "ALM202601285",
+    "feedback_text": "The placement workshop was extremely useful for juniors.",
+    "rating": 5
+  }
+]

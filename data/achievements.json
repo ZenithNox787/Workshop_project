@@ -1,0 +1,44 @@
+[
+  {
+    "achievement_id": "ACH202600121",
+    "alumni_id": "ALM202600191",
+    "title": "Google Impact Award",
+    "description": "Awarded for outstanding contribution to Search infrastructure.",
+    "achievement_date": "2022-11-10"
+  },
+  {
+    "achievement_id": "ACH202600258",
+    "alumni_id": "ALM202600996",
+    "title": "Amazon Builder Award",
+    "description": "Led migration of legacy services to AWS, saving crores annually.",
+    "achievement_date": "2021-05-20"
+  },
+  {
+    "achievement_id": "ACH202600322",
+    "alumni_id": "ALM202600541",
+    "title": "Best ML Paper - NeurIPS",
+    "description": "Published research paper on Transformer optimisation.",
+    "achievement_date": "2023-12-01"
+  },
+  {
+    "achievement_id": "ACH202600455",
+    "alumni_id": "ALM202601285",
+    "title": "Microsoft Azure Innovator",
+    "description": "Designed cloud architecture adopted across APAC region.",
+    "achievement_date": "2023-09-15"
+  },
+  {
+    "achievement_id": "ACH202600554",
+    "alumni_id": "ALM202600445",
+    "title": "TCS Star of the Month",
+    "description": "Delivered critical banking module 2 weeks ahead of schedule.",
+    "achievement_date": "2022-03-08"
+  },
+  {
+    "achievement_id": "ACH202600687",
+    "alumni_id": "ALM202600638",
+    "title": "Patent Grant - EV Cooling System",
+    "description": "Received patent for novel thermal management design in EVs.",
+    "achievement_date": "2023-06-30"
+  }
+]
