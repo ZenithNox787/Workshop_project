@@ -11,8 +11,6 @@ from helpers import (
     save_all, load_all, export_alumni_csv, export_donations_csv, export_events_csv,load_counters,save_counters
 )
 
-
-
 def _gen_id(entity_type):
     counters = load_counters()
     
@@ -378,15 +376,15 @@ class AlumniManagementSystem:
         if ch == 1:
             stats = self.institution_stats(self)
             print(f"""
-  ┌─────────────────────────────────────────┐
-  │        ALUMNI STATISTICS REPORT         │
-  ├─────────────────────────────────────────┤
+  ┌──────────────────────────────────────────┐
+  │        ALUMNI STATISTICS REPORT          │
+  ├──────────────────────────────────────────┤
   │  Total Alumni    : {str(stats['total_alumni']):<22}│
   │  Total Events    : {str(stats['total_events']):<22}│
   │  Total Donations : {inr(stats['total_donations']):<22}│
   │  Unique Batches  : {str(stats['unique_batches']):<22}│
   │  Total Feedbacks : {str(len(self.feedbacks)):<22}│
-  └─────────────────────────────────────────┘""")
+  └──────────────────────────────────────────┘""")
             self.reports.append(Report("Alumni Statistics", stats))
         elif ch == 2:
             print_header("Employment Report")
@@ -478,6 +476,7 @@ def employment_menu(ams):
 
 
 def event_menu(ams):
+    key = "123"
     while True:
         print_header("Event Management")
         print("""
@@ -489,9 +488,17 @@ def event_menu(ams):
         ch = get_int("Choice", 0, 4)
         try:
             if ch == 1:
-                ams.create_event()
+                x = input("\tEnter the pass key:").strip()
+                if x == key:
+                    ams.create_event()
+                else:
+                    print("\tOnly members with pass key can Create a new event")
             elif ch == 2:
-                ams.register_for_event()
+                x = input("Enter the pass key:")
+                if x == key:
+                    ams.register_for_event()
+                else:
+                    print("Only members with pass key can register Alumni for event")                    
             elif ch == 3:
                 ams.view_events()
             elif ch == 4:
@@ -587,7 +594,6 @@ def feedback_menu(ams):
         if ch != 0:
             pause()
 
-
 def main():
     os.system("clear" if os.name == "posix" else "cls")
     print("""
@@ -648,7 +654,6 @@ def main():
         except Exception as e:
             print(f"\n  Unexpected error: {e}")
             pause()
-
 
 if __name__ == "__main__":
     main()
